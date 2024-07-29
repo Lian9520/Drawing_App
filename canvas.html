@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Collaborative Drawing Game">
+    <meta name="keywords" content="Drawing Game, Drawing, Scribble, Party Game, Educational">
+    <meta name="author" content="Lia Nguyen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sketch Together</title>
+</head>
 <body>
+    <div class="workStation">
+        <section class="players-board"></section>
+        <section class="tools-board">
+            <div class="row">
+                <label class="title">Shapes</label>
+                <ul class="options">
+                    <li class="option">
+                        <img src="c:\Users\Lia\Downloads\Rectangle_(plain).svg" alt="rectangle" width="25px" height="25px">
+                        <span>Rectangle</span>
+                    </li>
+                    <li class="option">
+                        <img src="c:\Users\Lia\Downloads\Circle_-_black_simple.svg" alt="circle" width="25px" height="25px">
+                        <span>Circle</span>
+                    </li>
+                    <li class="option">
+                        <img src="c:\Users\Lia\Downloads\Simple_triangle.svg" alt="triangle" width="25px" height="25px">
+                        <span>Triangle</span>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="">
+                        <label for="">Fill Color</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label class="title">Tools</label>
+                <ul class="options">
+                    <li class="option">
+                        <img src="https://cdn-icons-png.flaticon.com/512/45/45135.png" alt="brush" width="25px" height="25px">
+                        <span>Brush</span>
+                    </li>
+                    <li class="option">
+                        <img src="https://static-00.iconduck.com/assets.00/eraser-icon-256x256-nt215ow6.png" alt="eraser" width="25px" height="25px">
+                        <span>Eraser</span>
+                    </li>
+                    <li class="option">
+                        <input type="range" id="size-slider">
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <label class="title">Colors</label>
+                <ul class="options">
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                </ul>
+            </div>
+            <div class="row">
+                <button class="clear-canvas">Clear Canvas</button>
+                <button class="save-img">Save As Image</button>
+            </div>
+        </section>
+        <section class="canvas-board"></section>
+        <section class="chat-board"></section>
+    </div>
 
-<canvas width="800" height="600" style="border:5px solid #000000;"></canvas>
-
-<script type ="text/javascript" src="C:\Users\Lia\Desktop\Drawing_App\script.js"></script>
-
+</div>
 </body>
 </html>
